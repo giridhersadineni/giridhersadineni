@@ -6,10 +6,7 @@
     box-sizing: border-box;
 }
 
-body{
-    
 
-}
 .myheader{
     height: 100vh;
     display: table-cell;
@@ -30,10 +27,6 @@ body{
 .myheader h3,.myheader p{
     color:white;
 }
-.topic{
-    padding:5%;
-    text-align: left;
-}
 
 .topic h1{
     text-align: center;
@@ -41,14 +34,12 @@ body{
 }
 .row{
     clear: both;
-    padding-left: 2%; 
-    
-    
+    padding-left: 2%;    
 }
 
 .blog-posts{
-    display: table-cell;
-    vertical-align: middle;
+    clear: both;
+   
     height: 100vh;
     background-image: url("https://images.unsplash.com/photo-1450101499163-c8848c66ca85?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
     background-size: cover;
@@ -95,4 +86,39 @@ footer section{
 }
 footer section h1{
     text-align: left;
+}
+.topic{
+    background-color: bisque;
+    display: block;
+    clear: both;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3em;
+    -webkit-box-shadow: 18px 7px 30px -22px rgba(0,0,0,1);
+    -moz-box-shadow: 18px 7px 30px -22px rgba(0,0,0,1);
+    box-shadow: 18px 7px 30px -22px rgba(0,0,0,1);
+
+}
+
+.topic-image{
+    display: inline-block;
+    max-width: 25%;
+    min-width: 25%;
+    min-width: 20
+}
+.topic-image img{
+    width: 100%;
+    height: auto;
+}
+
+.topic-text{
+    display: inline-block;
+    width: 70%;
+}
+.to-right{
+    float: right;
+}
+.to-left{
+    float: left;
 }
