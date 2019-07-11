@@ -89,9 +89,10 @@ footer section h1{
 }
 .topic{
     background-color: bisque;
-    display: block;
+    display: flex;
     clear: both;
     width: 80%;
+    height: 25vh;
     margin-left: auto;
     margin-right: auto;
     margin-top: 3em;
@@ -102,23 +103,29 @@ footer section h1{
 }
 
 .topic-image{
-    display: inline-block;
-    max-width: 25%;
-    min-width: 25%;
-    min-width: 20
+    
+    width: 30%;
 }
 .topic-image img{
-    width: 100%;
-    height: auto;
+    width: auto;
+    height: 100%;
 }
 
 .topic-text{
-    display: inline-block;
     width: 70%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+   
 }
-.to-right{
-    float: right;
+
+.topic:hover{
+    -webkit-box-shadow: 22px 9px 30px -22px rgba(0,0,0,1);
+    -moz-box-shadow: 22px 9px 30px -22px rgba(0,0,0,1);
+    box-shadow: 22px 9px 30px -22px rgba(0,0,0,1);
 }
-.to-left{
-    float: left;
+.nostyles{
+    text-decoration: none;
+    color: black;
 }
