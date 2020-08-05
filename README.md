@@ -37,7 +37,7 @@
 
 <br/>
 <br/>
----
+
 ## My Stats
 
 <img align="left" alt="Giridher's Github Stats" src="https://github-readme-stats.vercel.app/api?username=giridhersadineni&show_icons=true&hide_border=true" />
