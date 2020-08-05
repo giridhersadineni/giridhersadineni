@@ -1,4 +1,4 @@
-### Hi there, I'm Giridher - aka [codeSTACKr][website] 👋
+### Hi there, I'm Giridher 👋
 
 ## I'm a engineer by profession and a teacher by the Heart
 - LEARN
