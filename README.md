@@ -1,6 +1,6 @@
 ### Hi there, I'm Giridher 👋
 
-## I'm a engineer by profession and a teacher by the Heart
+## I'm an engineer by profession and a teacher by the Heart
 
 ### Connect with me:
 
